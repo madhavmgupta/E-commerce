@@ -17,11 +17,11 @@ const userSchema=new Schema({
     },
     isVerified:{
         type:Boolean,
-        default:false
+        default:true
     },
     isAdmin:{
         type:Boolean,
-        default:true
+        default:false
     }
 })
 
